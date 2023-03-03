@@ -1,0 +1,43 @@
+body::before{
+    display: block;
+    background-color: #212529;
+    content: '';
+    height: 70px;
+}
+@media(min-width:768px) {
+    .news-input{
+        width: 70%;
+    }
+}
+
+.nv-itm:hover{
+    border-bottom: 2px solid #0DCAF0;
+}
+.accordion-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#cont {
+    width: 80%;
+}
+
+.floating{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    vertical-align: middle;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.float-button{
+	margin-top:16px;
+}
